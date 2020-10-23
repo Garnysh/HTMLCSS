@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Anna Garnysh">
+    <title>Оформление заказа</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="delivery.html">Доставка и оплата</a>
+            <a href="order.html">Заказать</a>
+            <a href="autorization.html">Войти</a>
+        </nav>
+    </header>
+    <main>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Информация о товаре</legend>
+                <div>
+                    <label for="category">Категория товара</label>
+                    <select id="category">
+                        <option>Скульптуры из бетона</option>
+                        <option>Скульптуры из бронзы</option>
+                        <option>Скульптуры из мрамора</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="category">Предназначение Скульптуры</label>
+                    <select id="category">
+                        <option>Для помещения</option>
+                        <option>Для улицы</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="height">Высота Скульптуры</label>
+                    <input id="height" type="number" min="0" max="100">
+                </div>
+                <div>
+                    <label for="width">Ширина Скульптуры</label>
+                    <input id="width" type="number" min="0" max="100">
+                </div>
+                <div>
+                    <p>Вам потребуется тумба под скульптуру?</p>
+                    <label>Да<input type="radio" value="yes" name="stand"></label>
+                    <label>Нет<input type="radio" value="no" name="stand"></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Доставка и оплата</legend>
+                <fieldset>
+                    <legend>Предпочитаемый способ доставки</legend>
+                    <label>Самовывоз<input type="radio" value="1" name="delivery"></label>
+                    <label>Доставка курьером<input type="radio" value="2" name="delivery"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Предпочитаемый способ оплаты</legend>
+                    <label>Наличные<input type="radio" value="cash" name="pay"></label>
+                    <label>Оплата картой<input type="radio" value="card" name="pay"></label>
+                    <label>Оплата банковским переводом<input type="radio" value="bank" name="pay"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Предпочитаемый способ связи</legend>
+                    <label>Телефон<input type="checkbox" name="phone"><input type="text"
+                            placeholder="Номер телефона"></label>
+                    <label>Email<input type="checkbox" name="Email"><input type="text"
+                            placeholder="Введите email"></label>
+                </fieldset>
+            </fieldset>
+            <fieldset>
+                <legend>Обратная связь</legend>
+                <p>Как вы о нас узнали?</p>
+                <label>Видел ваши работы вживую<input type="checkbox" name="promotion[]" value="1"></label>
+                <label>Реклама в интернете<input type="checkbox" name="promotion[]" value="2"></label>
+                <label>Реклама на радио<input type="checkbox" name="promotion[]" value="2"></label>
+                <label>Другое<input type="text" name="promotion[]" placeholder="Введите свой вариант"></label>
+            </fieldset>
+            <div>
+                <button type="submit">Отправить заказ</button>
+                <button type="reset">Очистить</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h5>Контакты</h5>
+        <p>
+            Телефон: +7-931-304-48-34<br>
+            Адрес: Санкт-Петербург, ст.м. Чернышевская<br>
+            Email: garnysh.a@gmail.com
+        </p>
+    </footer>
+</body>
+
+</html>

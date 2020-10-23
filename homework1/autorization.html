@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="delivery.html">Способ доставки</a>
+            <a href="order.html">Заказать</a>
+            <a href="autorization.html">Войти</a>
+        </nav>
+    </header>
+    <main>
+      <form action="#" method="POST">
+         <div>
+             <label for="email">Email</label>
+             <input name="email" id="email" type="email" placeholder="Введите email" required autofocus>
+         </div>
+         <div>
+             <label for="password">Придумайте пароль</label>
+             <input name="password" id="password" type="password" placeholder="Введите пароль" required>           
+         </div>
+         <div>
+             <label for="name">Имя</label>
+             <input name="name" id="name" type="text" placeholder="Введите ваше имя" required>
+         </div>
+         <div>
+             <label for="firstname">Фамилия</label>
+             <input name="firstname" id="firstname" type="text" placeholder="Введите вашу фамилию" required>
+         </div>
+         <div>
+             <label for="years">Год рождения</label>
+             <input name="years" id="years" type="number" min="1920" max="2002">
+         </div>
+         <div>
+             <label>
+             Вы согласны на обработку ваших персональных данных?
+             <input type="checkbox" checked required>
+           </label>
+         </div>
+         <div>
+             <input type="submit" value="Войти">
+         </div>
+     </form>
+  </main> 
+  <footer>
+      <h5>Контакты</h5>
+      <p>
+         Телефон: +7-931-304-48-34<br>
+         Адрес: Санкт-Петербург, ст.м. Чернышевская<br>
+         Email: garnysh.a@gmail.com
+      </p>
+  </footer>
+</body>
+</html>
