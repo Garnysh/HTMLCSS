@@ -1,0 +1,14 @@
+<div class="flex-row">
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, placeat.</p>
+                    <img src="img/bg/bg.jpg">
+                </div>
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, placeat.</p>
+                    <img src="img/bg/bg.jpg">
+                </div>
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, placeat.</p>
+                    <img src="img/bg/bg.jpg">
+                </div>
+            </div>
